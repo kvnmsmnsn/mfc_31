@@ -1,0 +1,30 @@
+* NGSPICE file created from mfc_31_parax.ext - technology: sky130A
+
+.subckt mfc_31_parax gate sbd
+X0 sbd.t2 gate.t0 sbd.t1 sbd.t0 sky130_fd_pr__nfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=1.2
+R0 gate gate.t0 83.4807
+R1 sbd.n9 sbd.n3 2642.12
+R2 sbd.n6 sbd.n4 2642.12
+R3 sbd.n7 sbd.n3 1086.33
+R4 sbd.n8 sbd.n4 1086.33
+R5 sbd.n5 sbd.n2 171.672
+R6 sbd.n5 sbd.n1 171.672
+R7 sbd.n10 sbd.n2 171.672
+R8 sbd.n4 sbd.n2 146.25
+R9 sbd.n3 sbd.n1 146.25
+R10 sbd.n11 sbd.n10 139.672
+R11 sbd.n0 sbd.t1 118.799
+R12 sbd.n0 sbd.t2 118.011
+R13 sbd.n6 sbd.n5 117.001
+R14 sbd.n10 sbd.n9 117.001
+R15 sbd.n7 sbd.n6 65.9739
+R16 sbd.n9 sbd.n8 65.9739
+R17 sbd.n8 sbd.t0 48.1066
+R18 sbd.t0 sbd.n7 48.1066
+R19 sbd.n11 sbd.n1 32.0005
+R20 sbd.n12 sbd.n11 9.3005
+R21 sbd sbd.n12 1.32454
+R22 sbd.n12 sbd.n0 0.268288
+C0 gate sbd 1.27679f
+.ends
+

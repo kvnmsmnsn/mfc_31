@@ -1,0 +1,4 @@
+| units: 500000 tech: sky130A format: MIT
+x gate sbd sbd sbd d=9744,452 l=240 w=168 x=732 y=-301 sky130_fd_pr__nfet_01v8
+R gate 149
+R sbd 12442
